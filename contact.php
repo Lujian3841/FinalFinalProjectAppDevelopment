@@ -22,4 +22,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 
-include 'views/contact_view.php';
+include 'views/contact.view.php';

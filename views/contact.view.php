@@ -72,7 +72,7 @@
                 
                 <div class="info-note" style="margin-top: 2rem;">
                     <strong>What happens next?</strong><br>
-                    • We'll receive a copy of your message at our email<br>
+                    • We'll receive a copy of your message to our email<br>
                     • You'll receive a confirmation email to your address<br>
                     • We'll respond to your inquiry within 24-48 hours
                 </div>
