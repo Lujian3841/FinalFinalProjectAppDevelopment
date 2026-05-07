@@ -1,8 +1,8 @@
 <?php
-require_once 'config.php';
-require_once 'models/ContactMessage.php';
+require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/../models/ContactMessage.php';
 
-$is_logged_in = isset($_SESSION['user_id']);
+$is_logged_in = isset($_SESSION['user_ird']);
 $is_guest = isset($_SESSION['guest']);
 $message = '';
 

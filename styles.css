@@ -109,17 +109,60 @@ nav a.active {
 }
 
 .service-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    position: relative;
+    min-height: 200px;
     padding: 2.5rem 1.5rem;
     border-radius: 12px;
     color: white;
     text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 0;
+}
+
+.service-card h3,
+.service-card p {
+    position: relative;
+    z-index: 1;
+}
+
+.lawn-card {
+    background-image: url('images/lawncare.avif');
+}
+
+.mulch-card {
+    background-image: url('images/mulch&plants.jpg');
+}
+
+.snow-card {
+    background-image: url('images/snow_removal.jpg');
+}
+
+.rock-card {
+    background-image: url('images/rock&gravel.jpg');
+}
+
+.tree-card {
+    background-image: url('images/tree_service.jpg');
+}
+
+.estimate-card {
+    background-image: url('images/estimate.jpg');
 }
 
 .service-card h3 {
