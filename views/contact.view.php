@@ -45,7 +45,7 @@
                     Have a question or ready to get started? Send us a message and we'll get back to you soon!
                 </p>
                 
-                <form method="POST" action="index.php?page=contact">
+                <form method="POST" action="contact.php">
                     <div class="form-group">
                         <label for="email">Your Email</label>
                         <input 
