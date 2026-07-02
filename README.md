@@ -1,28 +1,50 @@
 # Application Development Project
 
-This repository contains an application development project.
+A course-based application development project used to practice building, organizing, and documenting a complete software project.
 
 ## Overview
 
-This project is intended to demonstrate a complete application build, including planning, implementation, and documentation.
+This repository represents an application development final project. The goal is to show the process of building a working application, organizing project files, and documenting the result in a way that is understandable to future reviewers or employers.
+
+Because this was originally a class project, the README focuses on presenting the project professionally while leaving room to add exact setup steps, screenshots, and feature details after the code is reviewed.
 
 ## Skills Demonstrated
 
 - Application development
-- Project structure
-- Version control
-- Debugging
-- Documentation
+- Project organization
+- Git and GitHub workflow
+- Debugging and iterative improvement
+- Technical documentation
+- Building a complete deliverable from requirements
 
-## How to Improve This Repository
+## What to Add Before Pinning
 
-- Add the exact technology stack
-- Add setup and run instructions
-- Add screenshots of the application
-- Add a feature list
-- Add known issues
-- Add future improvement ideas
+- Exact technology stack
+- Setup and run instructions
+- Screenshots of the app
+- Feature list
+- Known issues
+- Short reflection on what was learned
+- Any demo credentials should be fake/test-only
 
-## Portfolio Notes
+## Portfolio Positioning
 
-This repository may be useful for showing application development experience once the README and file organization are complete.
+This can be used as a supporting portfolio project after cleanup. It is less cybersecurity-focused than Project Citadel or CCDC scripts, but it can still show general software development ability.
+
+## Repository Safety Checklist
+
+Before showing this project to employers, verify that the repository does not contain:
+
+- Real passwords or API keys
+- Personal user data
+- School-only submission notes that should not be public
+- Unneeded build artifacts
+- Duplicate files from old versions
+
+## Future Improvements
+
+- Add screenshots
+- Add installation instructions
+- Add usage examples
+- Add architecture or UI notes
+- Add a short project reflection
